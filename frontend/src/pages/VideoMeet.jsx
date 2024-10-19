@@ -15,7 +15,7 @@ import ChatIcon from "@mui/icons-material/Chat";
 import { Badge, IconButton } from "@mui/material";
 import server from "../environment.js";
 
-const server_url = server;
+const server_url = "https://streammatebackend.onrender.com";
 
 var connections={};
 

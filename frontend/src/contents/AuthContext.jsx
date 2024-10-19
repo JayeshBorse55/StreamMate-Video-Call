@@ -6,7 +6,7 @@ import server from "../environment.js";
 export const AuthContext = createContext({});
 
 const client = axios.create({
-    baseURL:`${server}/api/v1/users`
+    baseURL:`https://streammatebackend.onrender.com/api/v1/users`
 });
 
 export const AuthProvider = ({children})=>{
